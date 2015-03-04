@@ -1,0 +1,1 @@
+function resize(){largeHeader.style.height=height+"px";largeHeader.style.width=width+"px"}var width=window.innerWidth,height=window.innerHeight,target={x:0,y:height};largeHeader=document.getElementById("large-header");largeHeader.style.height=height+"px";window.addEventListener("resize",resize);addListener();
